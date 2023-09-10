@@ -38,24 +38,42 @@ public class skzSongRec {
     System.out.println("e: rock");
 
     answer1 = scan.nextLine(); 
+    String loserornah = "Are you considering to listen to a Stray Kids song? (Answer yes or no )"; 
+    String areyoualoser = "";
+
 
     if(answer1.equals("a")){
-      System.out.println("My Stray Kids Song Recommendation is " + edmresponse);
+      System.out.println("My Stray Kids Song Recommendation is " + edmresponse + ".");
+      /*System.out.println(loserornah);
+      if(areyoualoser.equals("yes")) {
+      System.out.println("NICE");
+      }
+      else if(areyoualoser.equals("no")) {
+        System.out.println("smh no taste lol");
+      }
+      else {
+        System.out.println("I didn't quite understand. Please input your answer again.");
+      }*/
+      
     }
     else if(answer1.equals("b")){
-      System.out.println("My Stray Kids Song Recommendation is " + rapresponse);
+      System.out.println("My Stray Kids Song Recommendation is " + rapresponse + ".");
+      
     }
     else if(answer1.equals("c")){
-      System.out.println("My Stray Kids Song Recommendation is " + popresponse);
+      System.out.println("My Stray Kids Song Recommendation is " + popresponse + ".");
+
     }
     else if(answer1.equals("d")){
-      System.out.println("My Stray Kids Song Recommendation is " + lyricalresponse);
+      System.out.println("My Stray Kids Song Recommendation is " + lyricalresponse + ".");
+      
     }
     else if(answer1.equals("e")){
-      System.out.println("My Stray Kids Song Recommendation is " + rockresponse);
+      System.out.println("My Stray Kids Song Recommendation is " + rockresponse + ".");
+     
     }
     else {
-      System.out.println("Invalid choice. Please select a valid option.");
+      System.out.println("Invalid choice. Please select a valid option. (Make sure your response is from a to e and lowercase.)");
   }
 
     scan.close();
